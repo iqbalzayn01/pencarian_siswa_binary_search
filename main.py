@@ -5,9 +5,14 @@
 # up = index akhir
 # m = median
 
+# Data array
 arr_name = ['Andi', 'Akbar', 'Bela', 'Ceko', 'Dede', 'Ega', 'Fazar']
+arr_name.sort()
+
+# Nama yang dicari
 key = input('Name : ')
 
+# Proses
 low = 0
 up = len(arr_name) - 1
 for i in range(len(arr_name)):
