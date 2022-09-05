@@ -26,3 +26,6 @@ for i in range(len(arr_name)):
       low = m + 1
     else:
       up = m - 1
+
+if key not in arr_name:
+  print('Nama tidak ada dalam list, coba lagi!')
